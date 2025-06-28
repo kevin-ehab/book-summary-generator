@@ -1,5 +1,5 @@
 # 📚book-summary-generator
-✏️Fetch clean, simple 📚book summaries📑 from [sobrief.com](https://sobrief.com) using a 🐍Python GUI. View author, ⭐rating, and cover image — then preview and ⬇️download the summary as HTML..
+✏️Fetch clean, simple 📚book summaries📑 from [sobrief.com](https://sobrief.com) using a 🐍Python GUI. View author, ⭐rating, and cover image — then preview and ⬇️download the summary as HTML.
 
 ![Python](https://img.shields.io/badge/Made%20with-Python-3670A0?style=for-the-badge&logo=python&logoColor=white)
 ![Tkinter](https://img.shields.io/badge/GUI-Tkinter-blue?style=for-the-badge)
