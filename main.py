@@ -24,6 +24,8 @@ def summarize():
 
         author = soup.find("div", class_="book-author").contents[2].get_text()
         summary = soup.find("div", class_="chapter-summary")
+        if summary.get_text(strip=True) == "":
+            summary = "<h2 style='color: red'>unavailable</h2>"
         rating_tag = soup.find("div", class_="rating-value")
         rating = float(rating_tag.get_text(strip=True))
         image_tag = str(soup.find("img", class_="cover"))
